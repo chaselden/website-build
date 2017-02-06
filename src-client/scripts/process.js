@@ -15,8 +15,7 @@ class ProcessView extends React.Component {
         <div className="my-process-page">
           <div className="process-header">
             <h1> CHAD &nbsp; HASELDEN</h1>
-            {/* <a onClick={ function(){ ACTIONS.routeTo('')} } href=""><i className="fa fa-home fa-3x profile-home-icon" aria-hidden="true"></i></a> */}
-            <a onClick={function(){ ACTIONS.routeTo('')}} href=""><h2>HOME</h2></a>
+            <a href=""><h2>HOME</h2></a>
           </div>
           <div className="process-info">
             <h1>My &nbsp; Process :</h1>
