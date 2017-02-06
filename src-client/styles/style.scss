@@ -1,13 +1,153 @@
+// @import "styles/variables";
+// @import "styles/mixins/gradients";
+// @import "styles/mixins/breakpoints";
+// @import "styles/mixins/animation";
+// @import "styles/mixins/utils";
+// @import "styles/defaults";
+// @import "styles/elements";
+
+
 * {
 	box-sizing: border-box;
 }
 
+
 body{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Gruppo', cursive;
+	background-color: #BDC3C7;
+	// background-image: url('/Users/chadhaselden/website-build/public/images/vineslines.jpg');
+	#header-wrapper{
+		margin: 0 auto;
+		padding-top: 1px;
+		margin-top: -9px;
+		margin-bottom: 100px;
+	}
+
+.page-header{
+	position: fixed;
+	width: 100%;
+	background-color: #BDC3C7;
+	padding-left: 55px;
+
+
+	h1{
+	 color: #2C3E50;
+	 text-align: center;
+	 font-size: 35px;
+	 display: inline-block;
+	 padding-left: 85px;
+ }
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+.image-display{
+	table-layout: fixed;
+	margin:40px auto 0px auto;
+}
+
+.image-display, td, th{
+	border-collapse:collapse;
+ }
+ .artwork-header{
+	 padding-left: 60px;
+ }
+ .fab-header{
+	 padding-left: 55px;
+ }
+ h2{
+	 font-family: 'Gruppo', cursive;
+	//  font-family: 'Gruppo', cursive;
+	 display: inline-block;
+	 text-align: center;
+	 color: #2C3E50;
+	 margin-top: 70px;
+	 padding-left: 85px;
+ }
+ h3{
+	 font-family: 'Nothing You Could Do', cursive;
+	 color: #2C3E50;
+	 padding-left: 85px;
+ }
+ img {
+	 padding-left: 40px;
+  // display: block;
+  max-width:600px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+  th{
+		padding:20px 55px;
+	  font-size:15px;
+		color:#444;
+		}
+}
+.fabrication-display{
+	margin-top: 50px;
+}
+.page-footer{
+	display: inline-block;
+	color:#2C3E50;
+}
+.multi-icons {
+	color:#2C3E50;
+  margin-left: 20px;
+  display: inline-block;
+	padding-left: 20px;
+  vertical-align: middle;
+	// position: fixed;
+	&:hover{
+	 text-shadow: .5px .5px .5px #D91E18;
+	}
+}
+.about-me-page{
+	background-color: #BDC3C7;
+	color: #2C3E50;
+}
+.about-header{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 70px;
+	h1{
+	 font-size: 35px;
+	 padding-top: 10px;
+  }
+	a{
+		color: #2C3E50;
+		position:fixed;
+	  top: 0px;
+	  right: 70px;
+	  // z-index:999999;
+		font-size: 20px;
+
+	}
+}
+.profile-home-icon {
+ position:fixed;
+ top: 25px;
+ right: 25px;
+ z-index:999999;
+}
+.about-me-info{
+	h1{
+		font-size: 35px;
+		margin-left: 70px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	p{
+		color: #22313F;
+		text-indent: 1.5em;
+		font-size: 29px;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-bottom: 150px;
+		line-height: 1.25;
+	}
+	a{
+		color: #2C3E50;
+	  	&:hover{
+		   text-shadow: 1.5px 1.5px 1.5px #D91E18;
+		  }
+	}
 }
