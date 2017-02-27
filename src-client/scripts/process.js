@@ -18,14 +18,21 @@ class ProcessView extends React.Component {
             <a href=""><h2>HOME</h2></a>
           </div>
           <div className="process-info">
-            <h1>My &nbsp; Process :</h1>
-            <p> BLAH BLAH BLAH </p>
+            <h1>MY &nbsp; PROCESS :</h1>
+            <p>  Learning to work with copper has been a long series of trial and error. In fact, some of the "errors" have led to
+               unexpected outcomes and desireable effects that I now use regularly. Most of my pieces start with a sheet of standard roofing copper. After it's
+               cut, folded, and fitted to the desired space or application, I go to work. All images and patterns are original drawings designed by yours truly,
+               and are burned, etched, engraved, patinaed, scraped, scratched, and/or beaten into the copper by hand , by me. If you have an idea or design
+                application of your own, let's talk about it. I love a challenge. </p>
+
+               <h1> "Make &nbsp; EVERYTHING &nbsp; You(r) &nbsp; Own"</h1>
+
           </div>
           <div className="page-footer">
             <a href="https://www.facebook.com/chad.haselden"><i className="fa fa-facebook-official fa-4x multi-icons" aria-hidden="true"></i></a>
             <a href="https://www.instagram.com/grapplehouser/"><i className="fa fa-instagram fa-4x multi-icons" aria-hidden="true"></i></a>
             <a href="https://twitter.com/grapplehouser"><i className="fa fa-twitter-square fa-4x multi-icons" aria-hidden="true"></i></a>
-            <h1 className="copyright multi-icons">&#xa9; <strong><em>2016 &nbsp; GRAPPLEHOUSER &nbsp; STUDIOS</em></strong></h1>
+            <h1 className="copyright multi-icons">&#xa9; <strong><em>2016 &nbsp; GENUINE-ARTICLE &nbsp; STUDIOS</em></strong></h1>
           </div>
         </div>
       )

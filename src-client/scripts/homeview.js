@@ -26,7 +26,7 @@ class HomeView extends React.Component {
              			<th>
                     <img src={"../images/IMG_5963.jpg"}/>
                     {/* <img src={"/Users/chadhaselden/website-build/public/images/IMG_5963.jpg"}/> */}
-                      {/* <h2>"Vines at Night" (*sold)</h2> */}
+                      <h2>"Vines at Night" (*sold)</h2>
                   </th>
                   <th>
                     <img src={"../images/transformation.jpg"}/>
@@ -74,6 +74,11 @@ class HomeView extends React.Component {
                     <h2>"In Full Bloom"</h2>
                   </th>
                   <th>
+                    <img src={"../images/creep.jpg"}/>
+                    {/* <img src={"/Users/chadhaselden/website-build/public/images/creep.jpg"}/> */}
+                    <h2>"Creep"</h2>
+                  </th>
+                  <th>
                     <img src={"../images/small-tree.jpg"}/>
                     {/* <img src={"/Users/chadhaselden/website-build/public/images/small-tree.jpg"}/> */}
                     <h2>"Moon Dance" (*sold)</h2>
@@ -91,7 +96,7 @@ class HomeView extends React.Component {
                   <th>
                     <img src={"../images/OWL.jpg"}/>
                     {/* <img src={"/Users/chadhaselden/website-build/public/images/OWL.jpg"}/> */}
-                    <h2>"Descension of Fate"</h2><h3>(Bad Picture / Cool Piece)</h3>
+                    <h2>"Descension of Fate"</h2>
                   </th>
                   <th>
                     <img src={"../images/REAPER.jpg"}/>
@@ -142,6 +147,11 @@ class HomeView extends React.Component {
                     <img src={"../images/enigma.jpg"}/>
                     {/* <img src={"/Users/chadhaselden/website-build/public/images/enigma.jpg"}/> */}
                     <h2>"Enigma" (*sold)</h2>
+                  </th>
+                  <th>
+                    <img src={"../images/screaming-eagle.jpg"}/>
+                    {/* <img src={"/Users/chadhaselden/website-build/public/images/screaming-eagle.jpg"}/> */}
+                    <h2>*Currently in progress</h2>
                   </th>
                 </tr>
               </tbody>

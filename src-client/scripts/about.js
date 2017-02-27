@@ -15,13 +15,12 @@ class AboutMeView extends React.Component {
           <div className="about-me-page">
             <div className="about-header">
               <h1> CHAD &nbsp; HASELDEN</h1>
-              {/* <a onClick={ function(){ ACTIONS.routeTo('')} } href=""><i className="fa fa-home fa-3x profile-home-icon" aria-hidden="true"></i></a> */}
               <a onClick={function(){ ACTIONS.routeTo('')}} href=""><h2>HOME</h2></a>
             </div>
             <div className="about-me-info">
               <h1>WHO &nbsp; AM &nbsp; I ?</h1>
               <p>
-                        I'm just your average artist,&nbsp; fabricator,&nbsp; front-end web developer,&nbsp; tattoo-collector,&nbsp; gym-rat,&nbsp;
+                        I'm just your average artist,&nbsp; fabricator,&nbsp;<a href="http://chaselden.surge.sh/">front-end web developer</a> ,&nbsp; tattoo-collector,&nbsp; gym-rat,&nbsp;
                      dad,&nbsp; native&nbsp;South-Carolinian,&nbsp; part-time alchemist,&nbsp; and all-around nice-guy. Charleston has been my home for
                      the last 20 years and I wouldn't want it any other way. If you see something you'd like to purchase, or
                      if you'd like to discuss a commissioned piece, please feel free to contact me.

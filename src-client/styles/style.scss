@@ -87,7 +87,7 @@ body{
   vertical-align: middle;
 	// position: fixed;
 	&:hover{
-	 text-shadow: .5px .5px .5px #D91E18;
+	 text-shadow: .1px .1px .1px #D91E18;
 	}
 }
 .about-me-page{
@@ -110,7 +110,29 @@ body{
 	  right: 70px;
 	  // z-index:999999;
 		font-size: 20px;
-
+	}
+}
+.about-me-info{
+	h1{
+		font-size: 35px;
+		margin-left: 70px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	p{
+		color: #22313F;
+		text-indent: 1.5em;
+		font-size: 29px;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-bottom: 100px;
+		line-height: 1.25;
+	}
+	a{
+		color: #2C3E50;
+	  	&:hover{
+		   text-shadow: .1px .1px .1px #D91E18;
+		  }
 	}
 }
 .my-process-page{
@@ -136,32 +158,25 @@ body{
 
 	}
 }
+.process-info{
+	h1{
+		font-size: 35px;
+		margin-left: 70px;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+	p{
+		font-size: 29px;
+		text-indent: 1.5em;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-bottom: 80px;
+		line-height: 1.25;
+	}
+}
 .profile-home-icon {
  position:fixed;
  top: 25px;
  right: 25px;
  z-index:999999;
-}
-.about-me-info{
-	h1{
-		font-size: 35px;
-		margin-left: 70px;
-		margin-top: 100px;
-		margin-bottom: 100px;
-	}
-	p{
-		color: #22313F;
-		text-indent: 1.5em;
-		font-size: 29px;
-		margin-left: 70px;
-		margin-right: 70px;
-		margin-bottom: 150px;
-		line-height: 1.25;
-	}
-	a{
-		color: #2C3E50;
-	  	&:hover{
-		   text-shadow: 1.5px 1.5px 1.5px #D91E18;
-		  }
-	}
 }
